@@ -1,11 +1,17 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, SafeAreaView, Button } from "react-native";
+import { StyleSheet, SafeAreaView, Dimensions, View } from "react-native";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Button title="Click This" onPress={() => alert("MY BUTTON!")}/>
+      <View style={{
+        backgroundColor: "dodgerblue",
+        width: 150,
+        height: 70
+      }}>
+
+      </View>
     </SafeAreaView>
   );
 }
