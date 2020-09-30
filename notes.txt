@@ -1,0 +1,36 @@
+Layout with Flexbox
+  -flexDirection: determines axisies  
+  -justifyContent: aligns content along main axis
+  -alignItems: aligns content in each line along secondary axis
+  -alignSelf: aligns content for a single item
+  -alignContent: aligns all the content
+  -flexBasis: width or hieght of item depending on which axis is primary
+  -flexGrow & flexShrink: flex & flex with a negative number\
+
+  EXAMPLES:
+
+        <View style={{
+        backgroundColor: "white",
+        flex: 1,
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
+
+        <View style={{
+          backgroundColor: "chocolate",
+          width: 100,
+          height: 100
+        }}></View>
+        <View style={{
+          backgroundColor: "darkkhaki",
+          width: 100,
+          height: 100
+        }}></View>
+        <View style={{
+          backgroundColor: "darkgoldenrod",
+          width: 100,
+          height: 100
+        }}></View>
+      </View>  
+
